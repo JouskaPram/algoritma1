@@ -5,7 +5,7 @@ bilangan3 = int(input("masukan bilangan 3"))
 list = (bilangan1,bilangan2,bilangan3)
 max = max(list)
 min = min(list)
-ratarata = 90/3 
+ratarata = bilangan1+bilangan2+bilangan3/3 
 print("bilangan terbear adalah",max)
 print("bilangan terkecil adalah",min)
 print("rata rata bilangan",ratarata)
